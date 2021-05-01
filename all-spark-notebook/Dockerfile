@@ -3,6 +3,7 @@
 ARG BASE_CONTAINER=jupyter/pyspark-notebook
 FROM $BASE_CONTAINER
 
+
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
 USER root
